@@ -1,0 +1,92 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.container {
+    margin: 15px 20px;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: 8px 5px 8px 5px rgba(1, 0, 8, 0.068);
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+
+.productDetails {
+    padding: 0px 10px;
+    border-top:1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+
+.productname {
+    text-align: center;
+
+
+}
+
+.productPrice {
+    font-weight: bold;
+    text-align: center;
+    border:1px solid;
+    border-radius:66px 0px 50px 0px;
+    padding: 2px 0px;
+    background-color: #F1DDBF;
+
+}
+
+.productPrice:after {
+    content: ' $';
+}
+
+.productButtons {
+    display: flex;
+    padding: 2px;
+
+
+}
+
+.increasebtn {}
+
+.addbtn {
+      border: 0.5px solid black;
+    text-align: center;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #92BA92;
+   color: #ffff;
+ 
+}
+
+.detailbtn {
+    border: 0.5px solid black;
+
+    text-align: center;
+    width: 100px;
+    height: 30px;
+
+    border-radius: 20px 0px 0px 20px;
+    background-color: #ba9292;
+}
+
+.detailbtn a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+
+}
+
+.removebtn {}
+
+.decreasebtn {}

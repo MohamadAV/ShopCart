@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px 5px 50px;
+    background-color: #525E75;
+    border-radius: 0px 0px 30px 30px;
+    margin-bottom: 20px;
+
+}
+
+.logo {
+    width: 60px;
+}
+
+.basket {
+    width: 40px;
+    padding-top: 10px;
+
+}
+
+.bascketContainer span {
+    position: sticky;
+    margin-left: -11px;
+    min-width: 15px;
+    text-align: center;
+    background-color: #005affa8;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 50%;
+    color: #ffff;
+
+}
+.titleimg{
+    width: 300px;
+    height: 80px;
+}
