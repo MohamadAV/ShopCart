@@ -42,7 +42,10 @@ const Products = ({ productData }) => {
               >
                 Add to cart
               </button>
-            )}
+            )}{
+              quantityCount(state,productData.id) >= 1 && ( <button className={styles.countbtn} 
+              >{quantityCount(state,productData.id)}</button>)
+            }
             {quantityCount(state, productData.id) === 1 && (
               <button className={styles.removebtn} 
                 onClick={() =>

@@ -20,10 +20,12 @@ const Navbar = () => {
         <Link to="/cart">
           <img className={styles.basket} src={shopIcon} alt="basket" />
         </Link>
-       
+
         <span>{state.itemsCounter}</span>
-      </div>
- <img className={styles.titleimg} src={titleimgw} />
+      </div>{" "}
+      <Link to="/product">
+        <img className={styles.titleimg} src={titleimgw} alt="title" />
+      </Link>
       <Link to="/product">
         <img className={styles.logo} src={logo} alt="logo" />
       </Link>

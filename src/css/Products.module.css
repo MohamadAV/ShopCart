@@ -24,8 +24,8 @@
 .productDetails {
     padding: 0px 10px;
     border-top:1px solid;
-    border-bottom: 1px solid;
-    margin-bottom: 5px;
+
+    margin-bottom: 3px;
 }
 
 .productname {
@@ -37,9 +37,9 @@
 .productPrice {
     font-weight: bold;
     text-align: center;
-    border:1px solid;
+    box-shadow: 2px 2px 2px 2px rgba(78, 78, 78, 0.258);
     border-radius:66px 0px 50px 0px;
-    padding: 2px 0px;
+    padding: 5px 0px;
     background-color: #F1DDBF;
 
 }
@@ -55,14 +55,15 @@
 
 }
 
-.increasebtn {}
+
 
 .addbtn {
-      border: 0.5px solid black;
+    border: 0px;
+
     text-align: center;
     font-size: 14px;
     width: 100px;
-    height: 30px;
+    height: 40px;
     border-radius: 0px 20px 20px 0px;
     background-color: #92BA92;
    color: #ffff;
@@ -70,11 +71,11 @@
 }
 
 .detailbtn {
-    border: 0.5px solid black;
+    border: 0px;
 
     text-align: center;
     width: 100px;
-    height: 30px;
+    height: 40px;
 
     border-radius: 20px 0px 0px 20px;
     background-color: #ba9292;
@@ -87,6 +88,26 @@
 
 }
 
-.removebtn {}
+.removebtn {
 
-.decreasebtn {}
+
+}
+
+.removebtn img {
+    height: 11px;
+}
+
+.decreasebtn {
+
+}
+
+.increasebtn ,.countbtn,.decreasebtn,.removebtn  {
+    height: 40px;
+    width: 30px;
+
+}
+
+.countbtn{
+    background-color: #9dff9d4b;
+}
+

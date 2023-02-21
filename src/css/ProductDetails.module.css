@@ -1,0 +1,54 @@
+.cotainer{
+    padding: 20px 20px;
+    margin: 20px 60px;
+    background-color: rgba(245, 242, 242, 0.575);
+    border-radius: 20px 150px 150px 20px;
+    display: flex;
+    box-shadow: 10px 10px 10px 10px rgba(73, 72, 72, 0.308);
+
+}
+
+.productImage{
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(97, 96, 96, 0.089);
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.description{
+    background-color: #fff;
+    padding: 20px;
+    margin: 5% 10%;
+    font-size: 18px;
+    box-shadow: 8px 8px 8px 8px  rgba(141, 141, 141, 0.137);
+    border-radius: 20px;
+}
+
+.price{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.backbtn{
+text-decoration: none;
+background-color: rgb(79, 140, 245);
+color: white;
+padding: 4px;
+border-radius: 10px;
+
+}
+
+.backBtnContainer{
+    margin-top: 15px;
+}
+
+.category span{
+    border-radius: 68px 0px 68px 0px;
+    background-color: #ba9292;
+    padding: 8px;
+}

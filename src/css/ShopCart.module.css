@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    margin: 5%;
+
+}
+
+.counter {
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: 10px 10px 10px 10px rgba(92, 92, 92, 0.151);
+    padding: 20px;
+    height: fit-content;
+}
+
+.cart {
+    width: 80%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.totalItem {
+    padding: 0px 20px;
+
+}
+
+.totalPayment {
+    border-radius: 65px 0px 65px 0px;
+    background-color: #F1DDBF;
+    padding: 35px 20px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.checkoutBtn {
+    border: 0px;
+
+    text-align: center;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+
+    background-color: #92BA92;
+    color: #ffff;
+
+}
+
+.clearBtn {
+    border: 0px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 20px 20px 0px;
+color: #ffff;
+    background-color: #ba9292;
+}
